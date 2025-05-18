@@ -4,39 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mijn Eerste GitHub Pages Website</title>
+    <title>Luxury Chauffeur Dubai - One Pager</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- Header -->
     <header>
-        <h1>Welkom op mijn GitHub Pages Website</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#over">Over Mij</a></li>
+                <li><a href="#about">Over Ons</a></li>
+                <li><a href="#services">Diensten</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>Dit is een eenvoudige website gehost via GitHub Pages.</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Exclusieve Chauffeurservice in Dubai</h1>
+            <p>Ervaar luxe en comfort met onze premium chauffeursdiensten.</p>
+            <a href="#contact" class="cta-button">Boek Nu</a>
+        </div>
     </section>
 
-    <section id="over">
-        <h2>Over Mij</h2>
-        <p>Ik ben een beginnende webontwikkelaar en leer momenteel HTML, CSS en JavaScript.</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Over Ons</h2>
+        <p>Wij bieden exclusieve chauffeurdiensten in Dubai met een focus op luxe, comfort en professionaliteit. Ons wagenpark bestaat uit premium voertuigen voor elke gelegenheid.</p>
     </section>
 
-    <section id="contact">
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Onze Diensten</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>Zakelijke Chauffeur</h3>
+                <p>Professionele chauffeurs voor zakelijke afspraken en evenementen.</p>
+            </div>
+            <div class="service-item">
+                <h3>Luchthaven Transfer</h3>
+                <p>Stijlvolle en comfortabele transfers van en naar Dubai International Airport.</p>
+            </div>
+            <div class="service-item">
+                <h3>VIP Service</h3>
+                <p>Exclusieve VIP-diensten voor speciale gelegenheden en evenementen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
         <h2>Contact</h2>
-        <p>Neem contact op via e-mail: info@example.com</p>
+        <form>
+            <input type="text" placeholder="Naam" required>
+            <input type="email" placeholder="E-mail" required>
+            <textarea placeholder="Bericht" required></textarea>
+            <button type="submit">Verstuur</button>
+        </form>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Mijn Website. Alle rechten voorbehouden.</p>
+        <p>&copy; 2025 Luxury Chauffeur Dubai - Alle rechten voorbehouden.</p>
     </footer>
 
 </body>
