@@ -8,6 +8,7 @@ body {
 
 .hero {
     height: 100vh;
+    background-image: url('assets/667d6b625138a85285479f3d4bfbea8425a211fd.png');
     background-size: cover;
     background-position: center;
     display: flex;
